@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">A12-BT</string>
+    <string name="menu_first">1. Grant Permission</string>
+    <string name="menu_second">2. Search BT List </string>
+    <string name="menu_third">3. Connect to EV3 </string>
+    <string name="menu_fourth">4. Drive EV3</string>
+    <string name="menu_fifth">5. Play a Tone on EV3 </string>
+    <string name="menu_sixth">6. Disconnect From EV3 </string>
+</resources>
