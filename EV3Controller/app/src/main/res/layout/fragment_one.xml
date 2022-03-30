@@ -1,0 +1,135 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentOne" >
+
+    <Button
+        android:id="@+id/navConnect"
+        android:layout_width="111dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="-10dp"
+        android:text="Connect"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/navDrive"
+        android:layout_width="111dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="-10dp"
+        android:text="Drive"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/comingSoon"
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="-10dp"
+        android:text="Coming Soon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/navDrive"
+        app:layout_constraintStart_toEndOf="@+id/navConnect" />
+
+    <ImageView
+        android:id="@+id/btIcon"
+        android:layout_width="146dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="43dp"
+        android:src="@drawable/bluetooth_connected"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextRobotName" />
+
+    <EditText
+        android:id="@+id/editTextRobotName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Robot Name..."
+        android:inputType="textPersonName"
+        android:text="EV3A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="41dp"
+        android:text="Connect"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextRobotName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/connectStatus"
+        android:layout_width="171dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="33dp"
+        android:text="Disconnected"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btIcon"
+        app:layout_constraintTop_toBottomOf="@+id/connect" />
+
+    <Button
+        android:id="@+id/disconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="39dp"
+        android:text="Disconnect"
+        app:layout_constraintStart_toEndOf="@+id/btIcon"
+        app:layout_constraintTop_toBottomOf="@+id/connectStatus" />
+
+    <ProgressBar
+        android:id="@+id/batteryBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="366dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="80dp"
+        android:max="100"
+        android:progress="50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btIcon" />
+
+    <TextView
+        android:id="@+id/batteryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:text="Battery Level"
+        app:layout_constraintBottom_toTopOf="@+id/batteryBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="23dp"
+        android:text="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/batteryBar" />
+
+    <TextView
+        android:id="@+id/connectedDeviceText"
+        android:layout_width="143dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="31dp"
+        android:text="Not Connected"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btIcon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

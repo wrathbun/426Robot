@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/wolff/Desktop/A13Frag/A13Frag/app/src/main/res/layout/activity_main.xml" value="0.12273550724637682" />
+        <entry key="..\:/Users/wolff/Desktop/A13Frag/A13Frag/app/src/main/res/layout/fragment_one.xml" value="0.12273550724637682" />
+        <entry key="..\:/Users/wolff/Desktop/A13Frag/A13Frag/app/src/main/res/layout/fragment_two.xml" value="0.12273550724637682" />
+        <entry key="..\:/Users/wolff/Desktop/Robot/A13Frag/app/src/main/res/drawable/drive_d_selector.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/wolff/Desktop/Robot/A13Frag/app/src/main/res/drawable/drive_l_selector.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/wolff/Desktop/Robot/A13Frag/app/src/main/res/drawable/drive_r_selector.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/wolff/Desktop/Robot/A13Frag/app/src/main/res/drawable/drive_u_selector.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/wolff/Desktop/Robot/A13Frag/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/wolff/Desktop/Robot/A13Frag/app/src/main/res/layout/fragment_navigation.xml" value="0.33" />
+        <entry key="..\:/Users/wolff/Desktop/Robot/A13Frag/app/src/main/res/layout/fragment_one.xml" value="0.2" />
+        <entry key="..\:/Users/wolff/Desktop/Robot/A13Frag/app/src/main/res/layout/fragment_two.xml" value="0.33" />
+        <entry key="..\:/Users/wolff/Desktop/Robot/A13Frag/app/src/main/res/layout/navigation.xml" value="0.33" />
+        <entry key="..\:/Users/wolff/Desktop/Robot/EV3Controller/app/src/main/res/layout/fragment_one.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
